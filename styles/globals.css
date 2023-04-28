@@ -46,6 +46,10 @@
   --primary-color: blue;
 }
 
+.gradient-one {
+  background-color: linear-gradient(rgba(1, 65, 255, 0), rgba(1, 65, 255, 0.4)) !important;
+}
+
 /* 
 @media (prefers-color-scheme: dark) {
   :root {

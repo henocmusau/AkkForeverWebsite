@@ -18,7 +18,7 @@ export default function Hero() {
       >
         <article className='absolute bottom-0 pb-3 pt-10 w-full flex flex-col items-center justify-center'
           style={{
-            background: 'linear-gradient(to bottom, transparent, magenta)',
+            background: 'linear-gradient(to bottom, transparent, #5b21b6)',
             borderRadius: '0 0 15px 15px'
           }}
         >
@@ -29,6 +29,7 @@ export default function Hero() {
             className="text-gray-300 text-center md:text-left text-sm"
           >22/12/2023</p>
         </article>
+        <p className='absolute left-4 top-4 bg-primary px-2 uppercase text-sm font-semibold text-white'>Actualités</p>
       </section>
     </>
   )

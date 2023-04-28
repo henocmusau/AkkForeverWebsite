@@ -1,7 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
+import { ArticleItem } from '../components'
+
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+
 
 import { Header, Hero } from '../components'
 
@@ -17,8 +21,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className='min-h-screen max-w-full grow mx-auto flex flex-col align-center'>
+      <main className='min-h-screen bg-slate-100 max-w-full grow mx-auto flex flex-col align-center'>
+        {/* <div className=''> */}
         <Hero />
+        {/* <ArticleItem /> */}
+        {/* </div> */}
       </main>
     </>
   )
